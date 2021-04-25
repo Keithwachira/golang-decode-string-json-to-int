@@ -7,7 +7,7 @@ import (
 	"strconv"
 )
 
-// StringInt create a type alias for type string
+// StringInt create a type alias for type int
 type StringInt int
 
 // UnmarshalJSON create a custom unmarshal for the StringInt
